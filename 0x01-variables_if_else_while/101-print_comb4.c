@@ -31,9 +31,9 @@ int main(void)
 
 					putchar('0' + z);
 					putchar('0' + y);
-					putchar('0' + z);
+					putchar('0' + x);
 
-					if (z + y + x != 9 + 8 + 7)
+					if (x + y + z != 9 + 8 + 7)
 					{
 
 						putchar(',');
@@ -45,8 +45,8 @@ int main(void)
 			}
 			y++;
 		}
-		x++;
+		z++;
 	}
 	putchar('\n');
-		return (0);
+	return (0);
 }
