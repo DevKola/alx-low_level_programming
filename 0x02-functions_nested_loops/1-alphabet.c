@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
- * main - main program 
- * 
- * Description: This function prints 10 times the
- * alphabet, in lowercase, followed bya new line.
+ * main - main program
  *
- * Return: 0
+ * Return: Always 0.
  */
 
 void print_alphabet(void)
 {
-	char alp = 'a';
+	char alphab = 'a';
 
-	while (alp <= 'z')
+	while (alphab <= 'z')
 	{
-		_putchar(alp);
-		alp++;
+		_putchar (alphab);
+		alphab++;
+
 	}
-	_putchar('\n');
+	_putchar ('\n');
+
 }
