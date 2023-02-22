@@ -21,6 +21,7 @@ else
 printf("%ld\n", j);
 }
 n = j + k;
+j = k;
 k = n;
 }
 return (0);
