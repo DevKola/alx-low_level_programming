@@ -2,10 +2,6 @@
 
 /**
  * print_most_numbers - Prints number between 0 to 9
- *
- *_putchar: to print the result
- *
- * Return: void
  */
 void print_most_numbers(void)
 {
