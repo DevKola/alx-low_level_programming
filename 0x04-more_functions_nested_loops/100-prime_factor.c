@@ -4,7 +4,7 @@
 /**
  * main - frinds and print the pargest prime factor of the
  * number 6128 followed by a newlinw
- * Return 0
+ * Return: 0
  */
 int main(void)
 {
@@ -13,7 +13,7 @@ int main(void)
 	num = 612852475143;
 	max = -1;
 
-	while (num % 2 ==0)
+	while (num % 2 == 0)
 	{
 		max = 2;
 		num /= 2;
