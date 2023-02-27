@@ -9,16 +9,15 @@
  * Return: the lenght of the string
  */
 
-void _strlen(char *s)
+int _strlen(char *s)
 {
-	int i;
+	int count = 0;
 
-	i = 0
 
-	while (s[i] != '\0')
+	while (s[count] != '\0')
 	{
-		i++;
+		count++;
 	}
 	
-	return (i);	
+	return (count);	
 }
