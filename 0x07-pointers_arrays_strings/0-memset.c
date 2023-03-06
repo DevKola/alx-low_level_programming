@@ -4,7 +4,7 @@
  * *_memset - This function fills memory witha constant byte
  * @s: the memory are to be filled
  * @b: the char to be copied
- * @n: tthe number of times to copy b
+ * @n: the number of times to copy b
  *
  * Return: pointer to the memory area s
  */
