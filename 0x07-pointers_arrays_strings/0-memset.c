@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _memset - This function fiils memory with a constant byte
+ * *_memset - function fiils memory with a constant byte
  * @s: pointer
  * @b: data to change
  * @n: to be filled
