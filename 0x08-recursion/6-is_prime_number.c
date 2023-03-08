@@ -26,7 +26,7 @@ int divisors(int n, int m)
 }
 
 /**
- * is_prime_number - this is the prime
+ * is_prime_number - prime
  * @n: integer parameter
  * @Return: recursion
  */
