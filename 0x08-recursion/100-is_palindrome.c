@@ -16,7 +16,7 @@ int _strlen_recursion(char *s)
 }
 
 /**
- * p1 - the palidrome
+ * p1 - the palindrome
  * @s: points to the string
  * @l: the position
  * Return: boolean
@@ -36,11 +36,11 @@ int p1(char *s, int l)
 }
 
 /**
- * is_palidrome - palidrome
+ * is_palindrome - palidrome
  * @s: points to the string
  * Return: recursion
  */
-int is_palidrome(char *s)
+int is_palindrome(char *s)
 {
 	int len = _strlen_recursion(s);
 
