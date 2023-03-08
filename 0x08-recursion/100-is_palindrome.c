@@ -34,3 +34,15 @@ int p1(char *s, int l)
 	}
 	return (0);
 }
+
+/**
+ * is_palidrome - palidrome
+ * @s: points to the string
+ * Return: recursion
+ */
+int is_palidrome(char *s)
+{
+	int len = _strlen_recursion(s);
+
+	return (p1(s, len - 1));
+}
