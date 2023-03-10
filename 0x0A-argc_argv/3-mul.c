@@ -10,7 +10,7 @@
 int _atoi(char *s)
 {
 	int i, d, n, len, f, digit;
-	
+
 	i = 0;
 	d = 0;
 	n = 0;
@@ -61,7 +61,7 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	num1 = _atoi(arhv[1]);
+	num1 = _atoi(argv[1]);
 	num2 = _atoi(argv[2]);
 	result = num1 * num2;
 
