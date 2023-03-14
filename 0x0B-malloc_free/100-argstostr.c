@@ -25,7 +25,7 @@ char *argstostr(int ac, char **av)
 
 		for (j = 0; av[i][j] != '\0'; j++)
 			c++;
-		c++
+		c++;
 	}
 
 	aout = malloc((c + 1) * sizeof(char));
