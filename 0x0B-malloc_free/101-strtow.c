@@ -10,10 +10,10 @@
  */
 int count(char *s)
 {
-	int flag, c, s;
+	int flag, c, w;
 
 	flag = 0;
-	s = 0;
+	w = 0;
 
 	for (c = 0; s[c] != '\0'; c++)
 	{
@@ -22,11 +22,11 @@ int count(char *s)
 		else if (flag == 0)
 		{
 			flag = 1;
-			s++;
+			w++;
 		}
 	}
 
-	return (s);
+	return (w);
 }
 /**
  * **strtow - splits a string into words
