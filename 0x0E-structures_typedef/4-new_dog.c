@@ -14,8 +14,8 @@ char *_strcpy(char *dest, char *src);
  */
 dog_t *new_dog(char *name, float age, char *owner)
 {
-	dog_t *cutie_dog
-		int name_1 = 0, onw_1 = 0;
+	dog_t *cutie_dog;
+		int name_1 = 0, own_1 = 0;
 
 	if (name != NULL && owner != NULL)
 	{
@@ -45,7 +45,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 		cutie_dog->name = _strcpy(cutie_dog->name, name);
 		cutie_dog->owner = _strcpy(cutie_dog->owner, owner);
-		cutie_dog->iage = age;
+		cutie_dog->age = age;
 	}
 
 	return (cutie_dog);
